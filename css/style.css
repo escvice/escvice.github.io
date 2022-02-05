@@ -1,0 +1,126 @@
+body {
+   padding: 0;
+   margin: 0 auto;
+   width: 900px;
+   font-family: Arial, Helvetica, sans-serif;
+   /* border: 2px solid rgb(168, 86, 86);
+   border-radius: 20px; */
+
+}
+nav {
+    width: 100%;
+    /* background: #fff; */
+
+}
+ul {
+    margin-top: 20px;
+}
+nav ul {
+    
+    margin-left: 200px;
+    list-style-type: none; 
+    overflow: hidden; 
+}
+nav .logo {
+    float: left;
+    margin-top: 5px;
+    margin-right: -17px;
+}
+
+
+nav ul li {
+    display: inline;
+    padding: 2px 40px 2px 0;
+    font-size: 20px;
+    
+}
+
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.log-side {
+    float: right;
+    color: white;
+    margin-right: 80px;
+     
+}
+
+a {
+    text-decoration: none;
+    color: rgb(109, 109, 116);
+}
+
+#horo {
+    color: rgb(113, 42, 226);
+}
+
+h3 {
+    clear: both;
+    margin-top: 70px;
+    color: rgb(63, 159, 236);
+}
+
+.preview {
+    width: 410px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+p {
+    color: rgb(88, 84, 84);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+   
+}
+.preview span {
+    color:rgb(113, 42, 226);
+}
+
+.crypto-foto {
+    width: 455px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 0;
+}
+
+.viv-fotos {
+    margin-left: 70px;
+    padding-top: 5px;
+}
+
+footer {
+    clear: both;
+    width: 900px;
+    background-color: black;
+    position: relative;
+    top: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+}
+
+#footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-content: space-around; */
+    
+    
+}
+.tot {
+    margin-top: 10px;
+}
+
+#footer-section > div {
+    width: 220px;
+    height: 190px;
+    text-align: justify;
+    color: white;
+    font-family: arial;
+}
